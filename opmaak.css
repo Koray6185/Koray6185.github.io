@@ -38,3 +38,10 @@ font-weight: 700;
 li a:hover {
 background-color: skyblue
 }
+
+.titel {
+    text-align: center;
+    color: steelblue;
+}
+
+
