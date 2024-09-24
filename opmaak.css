@@ -36,7 +36,7 @@ font-weight: 700;
 }
 
 li a:hover {
-background-color: skyblue
+    background-color: skyblue
 }
 
 .titel {
@@ -48,5 +48,11 @@ background-color: skyblue
 .voorstellen {
     text-align: justify;
     max-width: 800px;
-    padding: 20px;
+    margin-left: 20px;
+    color:lightskyblue ;
+}
+
+.kopje1 {
+    color: steelblue;
+    margin-left: 20px;
 }
