@@ -50,12 +50,17 @@ li a:hover {
     max-width: 800px;
     margin-left: 20px;
     color:midnightblue;
-    margin-top: 0px;
-    
+    margin-top: 0;
 }
 
 .kopje1 {
     color: steelblue;
     margin-left: 20px;
-    margin-top: 0px;
+    margin-bottom: 0;
 }
+
+.afbeelding1 {
+    top:0;
+    right:0;
+    size: 150px;;
+}   
