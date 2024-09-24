@@ -41,26 +41,21 @@ li a:hover {
 
 h1, h2 {
     margin-bottom: 0;
+    margin-left: 10px;
+    color: steelblue;
 }
+
 p {
     margin-top: 0;
+    margin-left: 10px.;
+    color: midnightblue;
+    max-width: 600px;
+    text-align: justify;
 }
 
 .titel {
     text-align: center;
     color: steelblue;
-}
-
-.voorstellen {
-    text-align: justify;
-    max-width: 600px;
-    margin-left: 20px;
-    color:midnightblue;
-}
-
-.kop1 {
-    color: steelblue;
-    margin-left: 20px;
 }
 
 .afbeelding1 {
