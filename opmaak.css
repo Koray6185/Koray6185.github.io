@@ -61,15 +61,16 @@ p {
 .afbeelding1 {
     position: absolute;
     top: 0px;
-    right: 2000px;
+    right: 0px;
     width: 300px;
     height: auto;
 }   
 
 .afbeelding2 {
     position: absolute;
-    bottom: 20px;
-    right: 2000px;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
     width: 300px;
     height: auto;
 }
