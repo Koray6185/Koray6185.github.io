@@ -44,3 +44,9 @@ background-color: skyblue
     color: steelblue;
     font-size: xx-large;
 }
+
+.voorstellen {
+    text-align: justify;
+    max-width: 800px;
+    padding: 20px;
+}
