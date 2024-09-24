@@ -39,6 +39,9 @@ li a:hover {
     background-color: skyblue
 }
 
+p {
+    margin-top: 0;
+}
 .titel {
     text-align: center;
     color: steelblue;
@@ -47,20 +50,18 @@ li a:hover {
 
 .voorstellen {
     text-align: justify;
-    max-width: 800px;
+    max-width: 600px;
     margin-left: 20px;
     color:midnightblue;
-    margin-top: 0;
 }
 
 .kop1 {
     color: steelblue;
     margin-left: 20px;
-    margin-bottom: 0;
 }
 
 .afbeelding1 {
-    top:0;
-    right:0;
+    margin-top: 0px;
+    margin-right: 0px;
     size: 150px;;
 }   
