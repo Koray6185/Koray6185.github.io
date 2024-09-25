@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, powderblue, #00ccff);
+    background-color: powderblue;
     height: 100vh;
     position:relative
 }
