@@ -52,6 +52,11 @@ p {
     text-align: justify;
 }
 
+.binarybonanza {
+    margin-top: 0;
+    margin-left: 10px;
+    color: midnightblue;
+}
 .titelhomepage {
     text-align: center;
 }
@@ -61,6 +66,8 @@ p {
 .titelkleurmodellen {
     text-align: center;
 }
+
+
 
 .afbeelding1 {
     position: absolute;
