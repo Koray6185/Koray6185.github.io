@@ -52,7 +52,14 @@ p {
     text-align: justify;
 }
 
-.binarybonanza {
+.binarybonanzagame {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.binarybonanzalink {
     margin-top: 0;
     margin-left: 10px;
     color: midnightblue;
