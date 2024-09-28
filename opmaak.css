@@ -52,6 +52,10 @@ p {
     text-align: justify;
 }
 
+.binarybonanzalink {
+    color: steelblue;
+}
+
 .binarybonanzagame {
     margin: 0;
     height: 100vh;
@@ -59,7 +63,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-
 
 .titelhomepage {
     text-align: center;
@@ -70,8 +73,6 @@ p {
 .titelkleurmodellen {
     text-align: center;
 }
-
-
 
 .afbeelding1 {
     position: absolute;
