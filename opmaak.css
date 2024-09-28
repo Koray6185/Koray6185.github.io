@@ -82,14 +82,17 @@ p {
     width: 300px;
     height: auto;
 }   
-
 .afbeelding2 {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    margin-right: 350px;
-    margin-bottom: 20px;
+    bottom: 20px;
+    right: 350px;
     width: 300px;
     height: auto;
+}
+.afbeeldingkleurmodellen {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
 }
 
