@@ -31,10 +31,13 @@ li a:hover {
     background-color: skyblue
 }
 
-h1, h2 {
+h2 {
     margin-bottom: 0;
     margin-left: 10px;
     color: steelblue;
+}
+h1 {
+    text-align: center;
 }
 
 p {
