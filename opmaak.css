@@ -104,6 +104,9 @@ footer {
     color: navy;
     bottom: 0;
     left: 0;
-    padding: 5px;
-    line-height: 1,0;
+    padding: 2px;
+}
+
+footer p {
+    margin: 2px 0;
 }
