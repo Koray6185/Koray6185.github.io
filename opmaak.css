@@ -100,8 +100,12 @@ p {
 }
 
 footer {
-    background-color: steelblue;
+    background-color: white;
+    color: midnightblue;
     height: 100px;
-    bottom: 0px;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
