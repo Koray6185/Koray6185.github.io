@@ -71,7 +71,7 @@ p {
 }   
 .afbeelding2 {
     position: absolute;
-    top: 150px;
+    bottom: 20px;
     right: 350px;
     width: 300px;
     height: auto;
