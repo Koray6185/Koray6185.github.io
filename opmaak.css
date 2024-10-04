@@ -105,6 +105,7 @@ footer {
     bottom: 0;
     padding: 2px;
     text-align: center;
+    width: 100%;
 }
 
 footer p {
