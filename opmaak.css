@@ -101,5 +101,6 @@ p {
 
 footer {
     background-color: steelblue;
-    height: 10px;
+    height: 100px;
+    bottom: 0px;
 }
