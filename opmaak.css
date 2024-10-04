@@ -103,4 +103,5 @@ footer {
     background-color: steelblue;
     height: 100px;
     bottom: 0px;
+    position: absolute;
 }
