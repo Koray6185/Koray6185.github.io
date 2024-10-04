@@ -71,7 +71,7 @@ p {
 }   
 .afbeelding2 {
     position: absolute;
-    top: 70px;
+    top: 150px;
     right: 350px;
     width: 300px;
     height: auto;
@@ -104,6 +104,7 @@ footer {
     color: midnightblue;
     height: 100px;
     position: absolute;
+    bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
