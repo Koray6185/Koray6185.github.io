@@ -99,4 +99,7 @@ p {
     height: auto;
 }
 
-
+footer {
+    background-color: steelblue;
+    height: 10px;
+}
