@@ -50,14 +50,14 @@ p {
     text-align: justify; /* Zorgt ervoor dat de regels op hetzelfde moment eindigen, waardoor het er netjes uitziet */
 }
 .watiscompressie {
-    max-width: 850px;
+    max-width: 1000px;
     margin-top: 0; 
     margin-left: 10px;
     color: midnightblue;
     text-align: justify;
 }
 .soortencompressie {
-    max-width: 850px;
+    max-width: 100px;
     margin-top: 0;
     margin-left: 10px;
     color:midnightblue;
@@ -68,16 +68,15 @@ p {
     color: steelblue;
 }
 .binarybonanzagame {
-    position: absolute;
+    position: absolute; /*Zorgt dat onderdelen precies op een plek komt te staan zonder andere onderdelen te hinderen */
     top: 50%; /*Plaatst de bovenhoek in het midden*/
     left: 50%; /*Plaatst de linkerhoek in het midden*/
     transform: translate(-50%, -50%); /*hierdoor verplaatst het element naar links en omhoog met 50%, waardoor het precies in het midden op de pagina staat*/
     width: 700px;
-    margin-top: 40px; /*Voegt wat ruimte toe tussen het spel en 
 }
 
 .afbeelding1 {
-    position: absolute; /* Onderdelen blijven op een specifieke plek ongeacht de situatie */
+    position: absolute; /*
     top: 48px; /* Afstand tussen de bovenkant van de pagina is 48 pixels*/
     right: 0px; /* Er zit geen ruimte tussen de rechterkant van de pagina */
     margin: 20px; /* Ruimte rondom de afbeelding is 20 pixels */
@@ -125,7 +124,7 @@ p {
     right: 0;
     top: 48px;
     margin: 40px;
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 .afbeeldingeenheden {
@@ -133,7 +132,7 @@ p {
     right: 0;
     bottom: 48px;
     margin: 40px;
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 footer {
