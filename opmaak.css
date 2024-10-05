@@ -101,5 +101,5 @@ footer p { /*Footer paragraph, die heb ik gebruikt in mijn index html*/
     color: navy; /*De tekstkleur van de footer wordt navy*/
     left: 0; /*De footer komt helemaal links van het scherm te staan*/
     bottom: 0; /*De footer komt helemaal onder het scherm te staan*/
-    width: ;
+    width: 100%;
 }
