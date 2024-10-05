@@ -103,7 +103,8 @@ footer {
     position: fixed;
     color: navy;
     bottom: 0;
-    text-align: center;
-    width: 100%;
+    left: 0;
+    padding: 2px;
+    margin: 2px;
 }
 
