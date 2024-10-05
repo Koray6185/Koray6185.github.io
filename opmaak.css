@@ -68,8 +68,9 @@ p {
     color: steelblue;
 }
 .binarybonanzagame {
-    justify-content: center; /* Plaatst het spel horizontaal in het midden */
-    align-items: center; /* Plaatst het spel verticaal in het midden */
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 700px;
 }
 
