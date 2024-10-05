@@ -1,7 +1,7 @@
 body {
     background-color: powderblue; /*Zorgt voor de achtergrondskleur powderblue.*/ 
     height: 100vh; /*Onderdelen zijn even hoog als het scherm*/ 
-    position:relative; /*Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven*/
+    position: relative; /*Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven*/
 }
 
 ul { /*Een unsorted list (ongesorteerde lijst) voor een menu.*/
