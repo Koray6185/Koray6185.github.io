@@ -96,7 +96,13 @@ binarybonanzagame {
     width: 310px; 
     height: auto; 
 }
-
+.afbeeldingsamplen {
+    position: absolute;
+    bottom: 25px;
+    right: 75px;
+    width: 450px;
+    height: auto;
+}
 footer {
     position: absolute; 
     left: 0; /* Zet de footer helemaal links */
