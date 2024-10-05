@@ -8,9 +8,8 @@ ul {
     list-style-type: none; /* Zorgt ervoor dat alle opsommingstekens worden verwijderd. */
     margin: 0; /* Geen ruimte aan de buitenkant. */
     padding: 0; /* Geen ruimte aan de binnenkant. */
+    overflow: hidden;
     background-color: steelblue; /* Achtergrondkleur is steelblue. */
-    z-index: 10; /* Voeg deze regel toe */
-    position: relative; /* Voeg deze regel toe */
 }
 
 li {
@@ -21,7 +20,6 @@ li a {
     display: block; /* Gebruik volledige breedte van listitems waardoor de lettertype perfect is. */
     color: white; /* Tekstkleur is wit. */
     text-align: center; /* Centreert de tekst. */
-    overflow: hidden;
     padding: 14px 16px; /* 14 pixels afstand van boven en beneden en 16 pixels afstand van links en rechts  */
     text-decoration: none; /* Geen onderstreping. */
     font-size: large; /* Grootte van de tekst is groot. */
@@ -89,4 +87,5 @@ p {
     width: 310px; /* Grootte van de afbeelding is 310 pixels */
     height: auto; 
 }
+
 
