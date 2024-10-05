@@ -1,13 +1,13 @@
 body {
-    background-color: powderblue;
-    height: 100vh;
-    position:relative
+    background-color: powderblue; /*Zorgt voor de achtergronds kleur powderblue.*/ 
+    height: 100vh; /*Onderdelen zijn even hoog als het scherm*/ 
+    position:relative /*Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven*/
 }
 
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
+ul { /*Een unsorted list (ongesorteerde lijst) voor een menu.*/
+list-style-type: none; /*Zorgt ervoor dat alle opsommingstekens worden verwijderd, wat er netter uitziet*/
+margin: 0; /*Zodat er geen ruimte aan de buitenkant van de lijst is*/
+padding: 0; /*Zodat er geen ruimte aan de binnenkant van de lijst is*/
 overflow: hidden;
 background-color: steelblue;
 }
@@ -100,5 +100,7 @@ p {
 
 footer {
     color: navy;
+    left: 0;
+    bottom: 0;
 }
 
