@@ -18,6 +18,7 @@ float: left; /*Hierdoor staan de listitems naaast elkaar in plaats van onder elk
 li a { /*Om de listitems binnen de navigatiebalk te stylen*/
 display: block; /*De links gebruiken de volledige breedte van hun listitems waardoor ze de perfecte grootte hebben*/
 color: white; /*De tekstkleur van de links wordt wit*/
+overflow: hidden;
 padding: 14px 16px; /*Er zit 14 pixels ruimte rondom de boven- en onderkant en 16 pixels ruimte rondom de zijkanten*/
 text-decoration: none; /*De onderstreping van de links worden verwijderd*/
 font-size: large; /*De tekstgrootte is groot*/
