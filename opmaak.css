@@ -18,6 +18,8 @@ float: left; /*Hierdoor staan de listitems naaast elkaar in plaats van onder elk
 li a { /*Om de listitems binnen de navigatiebalk te stylen*/
 display: block; /*De links gebruiken de volledige breedte van hun listitems waardoor ze de perfecte grootte hebben*/
 color: white; /*De tekstkleur van de links wordt wit*/
+text-align: center;
+overflow: hidden;
 padding: 14px 16px; /*Er zit 14 pixels ruimte rondom de boven- en onderkant en 16 pixels ruimte rondom de zijkanten*/
 text-decoration: none; /*De onderstreping van de links worden verwijderd*/
 font-size: large; /*De tekstgrootte is groot*/
@@ -25,7 +27,7 @@ font-weight: 700; /*De tekst is vetgedrukt*/
 }
 
 li a:hover { /*Wanneer je met je muis over de menu beweegt, verandert de kleur*/
-    background-color: skyblue /*Wanneer je met je muis over de menu beweegt, wordt de kleur skyblue*/
+    background-color: skyblue; /*Wanneer je met je muis over de menu beweegt, wordt de kleur skyblue*/
 }
 
 h2 {
@@ -101,4 +103,5 @@ footer p { /*Footer paragraph, die heb ik gebruikt in mijn index html*/
     left: 0; /*De footer komt helemaal links van het scherm te staan*/
     bottom: 0; /*De footer komt helemaal onder het scherm te staan*/
     width: 100%;
+    position: absolute; /*Hierdoor blijft de footer linksonderaan het scherm staan*/
 }
