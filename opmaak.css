@@ -6,9 +6,9 @@ body {
 
 ul {
     list-style-type: none; /* Zorgt ervoor dat alle opsommingstekens worden verwijderd. */
-    margin: 0; /* Geen ruimte aan de buitenkant. */
-    padding: 0; /* Geen ruimte aan de binnenkant. */
-    overflow: hidden;
+    margin: 0; /* Zorgt ervoor dat er geen ruimte is de buitenkant. */
+    padding: 0; /* Zorgt ervoor dat er geen ruimte is aan de binnenkant. */
+    overflow: hidden; /* Zorgt ervoor dat onderdelen buiten de menu niet worden weergegeven */
     background-color: steelblue; /* Achtergrondkleur is steelblue. */
 }
 
@@ -19,16 +19,16 @@ li {
 li a {
     display: block; /* Gebruik volledige breedte van listitems waardoor de lettertype perfect is. */
     color: white; /* Tekstkleur is wit. */
-    text-align: center; /* Centreert de tekst. */
+    text-align: center; /* Plaatst de tekst in het midden. */
     padding: 14px 16px; /* 14 pixels afstand van boven en beneden en 16 pixels afstand van links en rechts  */
-    text-decoration: none; /* Geen onderstreping. */
+    text-decoration: none; /* Zodat er geen onderstreping is onder de links */
     font-size: large; /* Grootte van de tekst is groot. */
     font-weight: 700; /* De tekst is vetgedrukt. */
 }
 
 
 li a:hover { /* hover betekent de kleur van het menu als je met de muis over de menu gaat */
-    background-color: skyblue; /* Kleur bij hover. */
+    background-color: skyblue; /* Kleur bij hover is skyblue */
 }
 
 h1 {
@@ -38,13 +38,13 @@ h1 {
 
 h2 {
     margin-bottom: 0; /* Verwijdert de ruimte onder de tekst */
-    margin-left: 10px; /* Ruimte van 10 pixel aan linkerzijde */
+    margin-left: 10px; /* Ruimte van 10 pixel groot aan linkerzijde */
     color: steelblue; /* Kleur is steelblue */
 }
 
 p {
     margin-top: 0; /* Verwijdert de ruimte boven de tekst */
-    margin-left: 10px; /* Ruimte van 10 pixels aan de linkerzijde */
+    margin-left: 10px; /* Ruimte van 10 pixels groot aan de linkerzijde */
     color: midnightblue; /* De tekstkleur is midnightblue */
     max-width: 600px; /* De maximale breedte van de paragraaf is 600 pixels */
     text-align: justify; /* Zorgt ervoor dat de tekst gelijkmatig verdeeld is over de regel, waardoor het er netjes uitziet */
@@ -103,8 +103,6 @@ footer {
     bottom: 0; /* Zet de footer helemaal onderaan */
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
     color: navy; /* */
-    padding: 5px; /* Ruimte binnen de footer */
-    text-align: left; /* Tekst links uitlijnen */
 }
 
 
