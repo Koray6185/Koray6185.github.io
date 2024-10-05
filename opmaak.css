@@ -102,7 +102,7 @@ footer {
     left: 0; /* Zet de footer helemaal links */
     bottom: 0; /* Zet de footer helemaal onderaan */
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
-    color: navy; /* */
+    color: navy; /* Tekstkleur van de footer is navy */
 }
 
 
