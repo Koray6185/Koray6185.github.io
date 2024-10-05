@@ -12,20 +12,20 @@ ul {
 }
 
 li {
-    float: left; /*Listitems naast elkaar. */
+    float: left; /*Listitems staan horizontaal naast elkaar. */
 }
 
 li a {
-    display: block; /* Gebruik volledige breedte van listitems. */
-    color: white; /* Tekstkleur wit. */
+    display: block; /* Gebruik volledige breedte van listitems waardoor de lettertype perfect is. */
+    color: white; /* Tekstkleur is wit. */
     text-align: center; /* Centreert de tekst. */
-    padding: 14px 16px; /* Ruimte rondom. */
+    padding: 14px 16px; /* 14 pixels afstand van boven en beneden en 16 pixels afstand van links en rechts  */
     text-decoration: none; /* Geen onderstreping. */
-    font-size: large; /* Grosse tekst. */
-    font-weight: 700; /* Vetgedrukt. */
+    font-size: large; /* Grootte van de tekst is groot. */
+    font-weight: 700; /* De tekst is vetgedrukt. */
 }
 
-li a:hover {
+li a:hover { /* hover betekent de kleur van het menu als je met de muis over de menu gaat */
     background-color: skyblue; /* Kleur bij hover. */
 }
 
@@ -57,7 +57,7 @@ h1 {
     height: auto; /* Houdt de hoogte in verhouding */
 }
 .afbeeldingbinair1 {
-    position: absolute; /* Absolute positionering voor precieze plaatsing */
+    position: absolute; /* */
     top: 48px; /* Afstand van de bovenkant van de pagina */
     right: 0px; /* Afstand van de rechterkant van de pagina */
     margin: 20px; /* Ruimte rondom de afbeelding */
@@ -65,7 +65,7 @@ h1 {
     height: auto; /* Houdt de hoogte in verhouding */
 }
 .afbeeldingbinair2 {
-    position: absolute; /* Absolute positionering voor precieze plaatsing */
+    position: absolute; /**/
     bottom: 20px; /* Afstand van de onderkant van de pagina */
     right: 360px; /* Afstand van de rechterkant van de pagina */
     width: 310px; /* Breedte van de afbeelding */
