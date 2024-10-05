@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue; /*Zorgt voor de achtergronds kleur powderblue.*/ 
+    background-color: powderblue; /*Zorgt voor de achtergrondskleur powderblue.*/ 
     height: 100vh; /*Onderdelen zijn even hoog als het scherm*/ 
     position:relative /*Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven*/
 }
@@ -8,18 +8,17 @@ ul { /*Een unsorted list (ongesorteerde lijst) voor een menu.*/
 list-style-type: none; /*Zorgt ervoor dat alle opsommingstekens worden verwijderd, wat er netter uitziet*/
 margin: 0; /*Zodat er geen ruimte aan de buitenkant van de lijst is*/
 padding: 0; /*Zodat er geen ruimte aan de binnenkant van de lijst is*/
-overflow: hidden;
-background-color: steelblue;
+background-color: steelblue; /*Hierdoor is de achtergrondskleur steelblue in mijn menu*/
 }
 
 li {
-float: left;
+float: left; /*Hierdoor staan de listitems naaast elkaar in plaats van onder elkaar*/
 }
 
-li a {
-display: block;
-color: white;
-text-align: center;
+li a { /*Om de listitems binnen de navigatiebalk te stylen*/
+display: block; /*De links gebruiken de volledige breedte van hun listitems waardoor ze de perfecte grootte hebben*/
+color: white; /*De tekstkleur van de links wordt wit*/
+text-align: center; 
 padding: 14px 16px;
 text-decoration: none;
 font-size: large;
@@ -98,9 +97,8 @@ p {
     height: auto;
 }
 
-footer {
-    color: navy;
-    left: 0;
-    bottom: 0;
+footer p { /*Footer paragraph, die heb ik gebruikt in mijn index html*/
+    color: navy; /*De tekstkleur van de footer wordt navy*/
+    left: 0; /*De footer komt helemaal links van het scherm te staan*/
+    bottom: 0; /*De footer komt helemaal onder het scherm te staan*/
 }
-
