@@ -73,6 +73,7 @@ p {
     left: 50%; /*Plaatst de linkerhoek in het midden*/
     transform: translate(-50%, -50%); /*hierdoor verplaatst het element naar links en omhoog met 50%, waardoor het precies in het midden op de pagina staat*/
     width: 700px;
+    margin-top: 40px; /*Voegt wat ruimte toe tussen het spel en 
 }
 
 .afbeelding1 {
@@ -142,5 +143,4 @@ footer {
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
     color: navy; /* Tekstkleur van de footer is navy */
     margin: 2px;
-    line-height: 1.0;
 }
