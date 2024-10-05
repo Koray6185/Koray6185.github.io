@@ -49,6 +49,20 @@ p {
     max-width: 600px; /* De maximale breedte van de paragraaf is 600 pixels */
     text-align: justify; /* Zorgt ervoor dat de tekst gelijkmatig verdeeld is over de regel, waardoor het er netjes uitziet */
 }
+.watiscompressie {
+    max-width: 800px;
+    margin-top: 0; 
+    margin-left: 10px;
+    color: midnightblue;
+    text-align: justify;
+}
+.soortencompressie {
+    max-width: 800px;
+    margin-top: 0;
+    margin-left: 10px;
+    color:midnightblue;
+    text-align: justify;
+}
 
 .binarybonanzalink {
     color: steelblue;
