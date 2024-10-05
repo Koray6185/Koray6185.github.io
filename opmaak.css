@@ -41,7 +41,9 @@ h2 {
     margin-left: 10px; /* Ruimte van 10 pixel groot aan linkerzijde */
     color: steelblue; /* Kleur is steelblue */
 }
-
+h2 a {
+    color: steelblue;
+}
 p {
     margin-top: 0; /* Verwijdert de ruimte boven de tekst */
     margin-left: 10px; /* Ruimte van 10 pixels groot aan de linkerzijde */
@@ -64,9 +66,6 @@ p {
     text-align: justify;
 }
 
-.binarybonanzalink {
-    color: steelblue;
-}
 .binarybonanzagame {
     position: absolute; /*Zorgt dat onderdelen precies op een plek komt te staan zonder andere onderdelen te hinderen */
     top: 50%; /*Plaatst de bovenhoek in het midden*/
