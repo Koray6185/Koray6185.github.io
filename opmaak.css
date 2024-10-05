@@ -143,4 +143,5 @@ footer {
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
     color: navy; /* Tekstkleur van de footer is navy */
     margin: 2px;
+    line-height: 0.5; /* Verkleint de afstand tussen de tekstregels */
 }
