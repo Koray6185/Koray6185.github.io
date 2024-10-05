@@ -61,7 +61,7 @@ binarybonanzagame {
 
 .afbeelding1 {
     position: absolute; /* Onderdelen blijven op een specifieke plek ongeacht de situatie */
-    top: 48px; /* Afstand van de bovenkant van de pagina is 48 pixels*/
+    top: 48px; /* Afstand tussen de bovenkant van de pagina is 48 pixels*/
     right: 0px; /* Er zit geen ruimte tussen de rechterkant van de pagina */
     margin: 20px; /* Ruimte rondom de afbeelding is 20 pixels */
     width: 300px; /* Grootte van de afbeelding is 300 pixels */
@@ -69,7 +69,7 @@ binarybonanzagame {
 }
 .afbeelding2 {
     position: absolute; 
-    bottom: 40px; /* Afstand van de onderkant van de pagina is 40 pixels*/
+    bottom: 40px; /* Afstand tussen de onderkant van de pagina is 40 pixels*/
     right: 350px;
     width: 300px; 
     height: auto; 
