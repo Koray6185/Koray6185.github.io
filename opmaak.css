@@ -50,6 +50,15 @@ p {
     text-align: justify; /* Zorgt ervoor dat de tekst gelijkmatig verdeeld is over de regel, waardoor het er netjes uitziet */
 }
 
+.binarybonanzalink {
+    color: midnightblue;
+}
+binarybonanzagame {
+    justify-content: center; /* Plaatst het spel horizontaal in het midden */
+    align-items: center; /* Plaatst het spel verticaal in het midden */
+    width: 700px;
+}
+
 .afbeelding1 {
     position: absolute; /* Onderdelen blijven op een specifieke plek ongeacht de situatie */
     top: 48px; /* Afstand van de bovenkant van de pagina is 48 pixels*/
@@ -97,5 +106,6 @@ footer {
     padding: 5px; /* Ruimte binnen de footer */
     text-align: left; /* Tekst links uitlijnen */
 }
+
 
 
