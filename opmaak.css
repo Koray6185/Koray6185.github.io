@@ -1,107 +1,43 @@
 body {
-    background-color: powderblue; /*Zorgt voor de achtergrondskleur powderblue.*/ 
-    height: 100vh; /*Onderdelen zijn even hoog als het scherm*/ 
-    position: relative; /*Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven*/
+    background-color: powderblue; /* Zorgt voor de achtergrondskleur powderblue. */
+    height: 100vh; /* Onderdelen zijn even hoog als het scherm. */
+    position: relative; /* Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven. */
 }
 
-ul { /*Een unsorted list (ongesorteerde lijst) voor een menu.*/
-list-style-type: none; /*Zorgt ervoor dat alle opsommingstekens worden verwijderd, wat er netter uitziet*/
-margin: 0; /*Zodat er geen ruimte aan de buitenkant van de lijst is*/
-padding: 0; /*Zodat er geen ruimte aan de binnenkant van de lijst is*/
-background-color: steelblue; /*Hierdoor is de achtergrondskleur steelblue in mijn menu*/
+ul {
+    list-style-type: none; /* Zorgt ervoor dat alle opsommingstekens worden verwijderd. */
+    margin: 0; /* Geen ruimte aan de buitenkant. */
+    padding: 0; /* Geen ruimte aan de binnenkant. */
+    background-color: steelblue; /* Achtergrondkleur steelblue. */
 }
 
 li {
-float: left; /*Hierdoor staan de listitems naaast elkaar in plaats van onder elkaar*/
+    float: left; /*Listitems naast elkaar. */
 }
 
-li a { /*Om de listitems binnen de navigatiebalk te stylen*/
-display: block; /*De links gebruiken de volledige breedte van hun listitems waardoor ze de perfecte grootte hebben*/
-color: white; /*De tekstkleur van de links wordt wit*/
-text-align: center;
-overflow: hidden;
-padding: 14px 16px; /*Er zit 14 pixels ruimte rondom de boven- en onderkant en 16 pixels ruimte rondom de zijkanten*/
-text-decoration: none; /*De onderstreping van de links worden verwijderd*/
-font-size: large; /*De tekstgrootte is groot*/
-font-weight: 700; /*De tekst is vetgedrukt*/
+li a {
+    display: block; /* Gebruik volledige breedte van listitems. */
+    color: white; /* Tekstkleur wit. */
+    text-align: center; /* Centreert de tekst. */
+    padding: 14px 16px; /* Ruimte rondom. */
+    text-decoration: none; /* Geen onderstreping. */
+    font-size: large; /* Grosse tekst. */
+    font-weight: 700; /* Vetgedrukt. */
 }
 
-li a:hover { /*Wanneer je met je muis over de menu beweegt, verandert de kleur*/
-    background-color: skyblue; /*Wanneer je met je muis over de menu beweegt, wordt de kleur skyblue*/
+li a:hover {
+    background-color: skyblue; /* Kleur bij hover. */
 }
 
-h2 {
-    margin-bottom: 0;
-    margin-left: 10px;
-    color: steelblue;
-}
 h1 {
-    text-align: center;
-    color: steelblue;
+    text-align: center; /* Centreert de h1. */
+    color: steelblue; /* Kleur van de h1. */
 }
 
-p {
-    margin-top: 0;
-    margin-left: 10px;
-    color: midnightblue;
-    max-width: 600px;
-    text-align: justify;
-}
-
-.binarybonanzalink {
-    color: steelblue;
-}
-
-.binarybonanzagame {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.afbeelding1 {
-    position: absolute;
-    top: 48px;
-    right: 0px;
-    margin: 20px;
-    width: 300px;
-    height: auto;
-}   
-.afbeelding2 {
-    position: absolute;
-    bottom: 40px;
-    right: 350px;
-    width: 300px;
-    height: auto;
-}
-.afbeeldingkleurmodellen {
-    position: absolute;
-    bottom: 25px;
-    right: 75px;
-    width: 450px;
-    height: auto;
-}
-.afbeeldingbinair1 {
-    position: absolute;
-    top: 48px;
-    right: 0px;
-    margin: 20px;
-    width: 310px;
-    height: auto;
-}
-.afbeeldingbinair2 {
-    position:absolute;
-    bottom: 20px;
-    right: 360px;
-    width: 310px;
-    height: auto;
-}
-
-footer p { /*Footer paragraph, die heb ik gebruikt in mijn index html*/
-    color: navy; /*De tekstkleur van de footer wordt navy*/
-    left: 0; /*De footer komt helemaal links van het scherm te staan*/
-    bottom: 0; /*De footer komt helemaal onder het scherm te staan*/
-    width: 100%;
-    position: absolute; /*Hierdoor blijft de footer linksonderaan het scherm staan*/
+footer p {
+    color: navy; /* Kleur van de footer tekst. */
+    left: 0; /* Footer links. */
+    bottom: 0; /* Footer onderaan. */
+    width: 100%; /* Volledige breedte. */
+    position: absolute; /* Geeft positie aan. */
 }
