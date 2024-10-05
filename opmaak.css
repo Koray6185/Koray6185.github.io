@@ -93,8 +93,8 @@ footer {
     left: 0; /* Zet de footer helemaal links */
     bottom: 0; /* Zet de footer helemaal onderaan */
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
-    background-color: navy; /* */
-    padding: 10px; /* Ruimte binnen de footer */
+    color: navy; /* */
+    padding: 5px; /* Ruimte binnen de footer */
     text-align: left; /* Tekst links uitlijnen */
 }
 
