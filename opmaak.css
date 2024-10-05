@@ -121,7 +121,7 @@ p {
     position: absolute;
     right: 0;
     top: 48px;
-    margin: 20px;
+    margin: 40px;
     width: 150px;
     height: auto;
 }
@@ -129,7 +129,7 @@ p {
     position: absolute;
     right: 0;
     bottom: 48px;
-    margin: 20px;
+    margin: 40px;
     width: 150px;
     height: auto;
 }
