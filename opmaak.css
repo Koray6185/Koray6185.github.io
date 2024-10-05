@@ -118,9 +118,11 @@ p {
     height: auto;
 }
 footer {
-    position: absolute; 
+    position: fixed;
     left: 0; /* Zet de footer helemaal links */
     bottom: 0; /* Zet de footer helemaal onderaan */
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
     color: navy; /* Tekstkleur van de footer is navy */
+    margin: 3px;
+    line-height: 3px;
 }
