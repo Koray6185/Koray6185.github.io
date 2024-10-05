@@ -8,7 +8,7 @@ ul {
     list-style-type: none; /* Zorgt ervoor dat alle opsommingstekens worden verwijderd. */
     margin: 0; /* Geen ruimte aan de buitenkant. */
     padding: 0; /* Geen ruimte aan de binnenkant. */
-    background-color: steelblue; /* Achtergrondkleur steelblue. */
+    background-color: steelblue; /* Achtergrondkleur is steelblue. */
 }
 
 li {
