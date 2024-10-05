@@ -19,6 +19,7 @@ li a {
     display: block; /* Gebruik volledige breedte van listitems waardoor de lettertype perfect is. */
     color: white; /* Tekstkleur is wit. */
     text-align: center; /* Centreert de tekst. */
+    overflow: hidden;
     padding: 14px 16px; /* 14 pixels afstand van boven en beneden en 16 pixels afstand van links en rechts  */
     text-decoration: none; /* Geen onderstreping. */
     font-size: large; /* Grootte van de tekst is groot. */
