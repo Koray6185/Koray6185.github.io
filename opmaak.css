@@ -99,8 +99,8 @@ binarybonanzagame {
 }
 .afbeeldingsamplen {
     position: absolute;
-    bottom: 25px;
-    right: 75px;
+    top: 100px;
+    right: 100px;
     width: 450px;
     height: auto;
 }
@@ -111,9 +111,3 @@ footer {
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
     color: navy; /* Tekstkleur van de footer is navy */
 }
-footer p {
-    padding: 2px;
-}
-
-
-
