@@ -70,30 +70,30 @@ binarybonanzagame {
 .afbeelding2 {
     position: absolute; 
     bottom: 40px; /* Afstand van de onderkant van de pagina is 40 pixels*/
-    right: 350px; /* Afstand van de rechterkant van de pagina is 350 pixels */
-    width: 300px; /* Grootte van de afbeelding is 300 pixels*/
+    right: 350px;
+    width: 300px; 
     height: auto; 
 }
 .afbeeldingkleurmodellen {
     position: absolute; 
-    bottom: 25px; /* Afstand van de onderkant van de pagina is 25 pixels */
-    right: 75px; /* Afstand van de rechterkant van de pagina is 75 pixels */
-    width: 450px; /* Grootte van de afbeelding is 450 pixels */
+    bottom: 25px; 
+    right: 75px; 
+    width: 450px; 
     height: auto; 
 }
 .afbeeldingbinair1 {
     position: absolute; 
-    top: 48px; /* Afstand van de bovenkant van de pagina is 48 pixels */
-    right: 0px; /* Er zit geen ruimte tussen de rechterkant van de pagina */
-    margin: 20px; /* Ruimte rondom de afbeelding is 20 pixels */
-    width: 310px; /* Grootte van de afbeelding is 310 pixels */
+    top: 48px; 
+    right: 0px; 
+    margin: 20px; 
+    width: 310px; 
     height: auto; 
 }
 .afbeeldingbinair2 {
     position: absolute; 
-    bottom: 20px; /* Afstand van de onderkant van de pagina is 20 pixels */
-    right: 360px; /* Afstand van de rechterkant van de pagina  is 360 pixels*/
-    width: 310px; /* Grootte van de afbeelding is 310 pixels */
+    bottom: 20px; 
+    right: 360px; 
+    width: 310px; 
     height: auto; 
 }
 
