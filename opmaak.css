@@ -69,9 +69,9 @@ p {
 }
 .binarybonanzagame {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%; /*Plaatst de bovenhoek in het midden*/
+    left: 50%; /*Plaatst de linkerhoek in het midden*/
+    transform: translate(-50%, -50%); /*hierdoor verplaatst het element naar links en omhoog met 50%, waardoor het precies in het midden op de pagina staat*/
     width: 700px;
 }
 
