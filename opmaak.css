@@ -34,6 +34,22 @@ h1 {
     color: steelblue; /* Kleur van de h1. */
 }
 
+h2 {
+    margin-bottom: 0; /* Verwijdert de ruimte onder de tekst */
+    margin-left: 10px; /* Ruimte van 10 pixel aan linkerzijde */
+    color: steelblue; /* Tekstkleur is steelblue */
+}
+
+p {
+    margin-top: 0; /* Verwijdert de ruimte boven de tekst */
+    margin-left: 10px; /* Ruimte van 10 pixels aan de linkerzijde */
+    color: midnightblue; /* De tekstkleur is midnightblue */
+    max-width: 600px; /* De maximale breedte van de paragraaf is 600 pixels */
+    text-align: justify; /* Zorgt ervoor dat de tekst gelijkmatig verdeeld is over de regel, waardoor het er netjes uitziet */
+}
+
+
+
 .afbeelding1 {
     position: absolute; /* Absolute positionering voor precieze plaatsing */
     top: 48px; /* Afstand van de bovenkant van de pagina */
