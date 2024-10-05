@@ -34,10 +34,41 @@ h1 {
     color: steelblue; /* Kleur van de h1. */
 }
 
-footer p {
-    color: navy; /* Kleur van de footer tekst. */
-    left: 0; /* Footer links. */
-    bottom: 0; /* Footer onderaan. */
-    width: 100%; /* Volledige breedte. */
-    position: absolute; /* Geeft positie aan. */
+.afbeelding1 {
+    position: absolute; /* Absolute positionering voor precieze plaatsing */
+    top: 48px; /* Afstand van de bovenkant van de pagina */
+    right: 0px; /* Afstand van de rechterkant van de pagina */
+    margin: 20px; /* Ruimte rondom de afbeelding */
+    width: 300px; /* Breedte van de afbeelding */
+    height: auto; /* Houdt de hoogte in verhouding */
 }
+.afbeelding2 {
+    position: absolute; /* Absolute positionering voor precieze plaatsing */
+    bottom: 40px; /* Afstand van de onderkant van de pagina */
+    right: 350px; /* Afstand van de rechterkant van de pagina */
+    width: 300px; /* Breedte van de afbeelding */
+    height: auto; /* Houdt de hoogte in verhouding */
+}
+.afbeeldingkleurmodellen {
+    position: absolute; /* Absolute positionering voor precieze plaatsing */
+    bottom: 25px; /* Afstand van de onderkant van de pagina */
+    right: 75px; /* Afstand van de rechterkant van de pagina */
+    width: 450px; /* Breedte van de afbeelding */
+    height: auto; /* Houdt de hoogte in verhouding */
+}
+.afbeeldingbinair1 {
+    position: absolute; /* Absolute positionering voor precieze plaatsing */
+    top: 48px; /* Afstand van de bovenkant van de pagina */
+    right: 0px; /* Afstand van de rechterkant van de pagina */
+    margin: 20px; /* Ruimte rondom de afbeelding */
+    width: 310px; /* Breedte van de afbeelding */
+    height: auto; /* Houdt de hoogte in verhouding */
+}
+.afbeeldingbinair2 {
+    position: absolute; /* Absolute positionering voor precieze plaatsing */
+    bottom: 20px; /* Afstand van de onderkant van de pagina */
+    right: 360px; /* Afstand van de rechterkant van de pagina */
+    width: 310px; /* Breedte van de afbeelding */
+    height: auto; /* Houdt de hoogte in verhouding */
+}
+
