@@ -9,6 +9,8 @@ ul {
     margin: 0; /* Geen ruimte aan de buitenkant. */
     padding: 0; /* Geen ruimte aan de binnenkant. */
     background-color: steelblue; /* Achtergrondkleur is steelblue. */
+    z-index: 10; /* Voeg deze regel toe */
+    position: relative; /* Voeg deze regel toe */
 }
 
 li {
@@ -25,6 +27,7 @@ li a {
     font-size: large; /* Grootte van de tekst is groot. */
     font-weight: 700; /* De tekst is vetgedrukt. */
 }
+
 
 li a:hover { /* hover betekent de kleur van het menu als je met de muis over de menu gaat */
     background-color: skyblue; /* Kleur bij hover. */
