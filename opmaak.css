@@ -141,4 +141,5 @@ footer {
     bottom: 0; /* Zet de footer helemaal onderaan */
     width: 100%; /* Zorgt ervoor dat de footer de volledige breedte van de pagina inneemt */
     color: navy; /* Tekstkleur van de footer is navy */
+    line-height: 0.1;
 }
