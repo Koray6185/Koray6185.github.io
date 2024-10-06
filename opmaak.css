@@ -52,14 +52,14 @@ p {
     text-align: justify; /* Zorgt ervoor dat de regels op hetzelfde moment eindigen, waardoor het er netjes uitziet */
 }
 .watiscompressie {
-    max-width: 1000px;
+    max-width: 1050px;
     margin-top: 0; 
     margin-left: 10px;
     color: midnightblue;
     text-align: justify;
 }
 .soortencompressie {
-    max-width: 1000px;
+    max-width: 1050px;
     margin-top: 0;
     margin-left: 10px;
     color:midnightblue;
