@@ -66,14 +66,14 @@ p {
     text-align: justify;
 }
 .bitmap {
-    max-width: 700px;
+    max-width: 725px;
     margin-top: 0;
     margin-left: 10px;
     color: midnightblue;
     text-align: justify;
 }
 .geluidsfragmenten {
-    max-width: 700px;
+    max-width: 725px;
     margin-top: 0;
     margin-left: 10px;
     color: midnightblue;
@@ -129,7 +129,7 @@ p {
 .afbeeldingsamplen {
     position: absolute;
     top: 160px;
-    right: 50px;
+    right: 30px;
     width: 550px;
     height: auto;
 }
