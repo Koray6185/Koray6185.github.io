@@ -65,6 +65,20 @@ p {
     color:midnightblue;
     text-align: justify;
 }
+.bitmap {
+    max-width: 700px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: midnightblue;
+    text-align: justify;
+}
+.geluidsfragmenten {
+    max-width: 700px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: midnightblue;
+    text-align: justify;
+}
 
 .binarybonanzagame {
     position: absolute; /*Zorgt dat onderdelen precies op een plek komt te staan zonder andere onderdelen te hinderen */
@@ -115,7 +129,7 @@ p {
 .afbeeldingsamplen {
     position: absolute;
     top: 160px;
-    right: 100px;
+    right: 50px;
     width: 550px;
     height: auto;
 }
