@@ -1,8 +1,8 @@
-body { /* Stijling op elke pagina van mijn website*/
+body { /* Stijling op elke pagina van mijn website. ˇ{ˇ om de tag te openen */
     background-color: powderblue; /* Zorgt voor de achtergrondskleur powderblue. */
     height: 100vh; /* Onderdelen zijn even hoog als het scherm. */
     position: relative; /* Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven. */
-}
+} /*Om de tag te sluiten*/
 
 ul { /* Stijling voor mijn unsorted list */
     list-style-type: none; /* Zorgt ervoor dat alle opsommingstekens worden verwijderd */
@@ -79,7 +79,20 @@ p {
     color: midnightblue;
     text-align: justify;
 }
-
+.binairtekst1 {
+    max-width: 500px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: midnightblue;
+    text-align: justify;
+}
+.binairtekst2 {
+    max-width: 500px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: midnightblue;
+    text-align: justify;
+}
 .binarybonanzagame {
     position: absolute; /*Zorgt dat onderdelen precies op een plek komt te staan zonder andere onderdelen te hinderen */
     top: 50%; /*Plaatst de bovenhoek in het midden*/
