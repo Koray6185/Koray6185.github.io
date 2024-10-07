@@ -104,7 +104,7 @@ p {
     position: absolute; /*Zorgt dat onderdelen precies op een plek komt te staan zonder andere onderdelen te hinderen */
     top: 50%; /*Plaatst de bovenhoek in het midden*/
     left: 50%; /*Plaatst de linkerhoek in het midden*/
-    transform: translate(-50%, -50%); /*hierdoor verplaatst het element naar links en omhoog met 50%, waardoor het precies in het midden op de pagina staat*/
+    transform: translate(-50%, -50%); /*hierdoor verplaatst het spel naar links en omhoog met 50%, waardoor het precies in het midden op de pagina staat*/
     width: 700px;
     margin-top: 30px;
 }
@@ -136,14 +136,14 @@ p {
     top: 48px; 
     right: 0px; 
     margin: 30px; 
-    width: 250px; 
+    width: 235px; 
     height: auto; 
 }
 .afbeeldingbinair2 {
     position: absolute; 
     bottom: 30px; 
-    right: 315px; 
-    width: 250px; 
+    right: 310px; 
+    width: 235px; 
     height: auto; 
 }
 .afbeeldingsamplen {
@@ -174,6 +174,7 @@ p {
     right: 25px;
     bottom: 25px;
     width: 800px;
+    height: auto;
 }
 
 footer {
