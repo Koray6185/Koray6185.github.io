@@ -164,9 +164,9 @@ p {
 }
 .ASCIItabel {
     position: absolute;
-    left: 20px;
+    right: 20px;
     bottom: 20px;
-    width: 1000px;
+    width: 800px;
 }
 footer {
     position: fixed;
