@@ -93,6 +93,13 @@ p {
     color: midnightblue;
     text-align: justify;
 }
+.asciitekst {
+    max-width: 400px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: midnightblue;
+    text-align: justify;
+}
 .binarybonanzagame {
     position: absolute; /*Zorgt dat onderdelen precies op een plek komt te staan zonder andere onderdelen te hinderen */
     top: 50%; /*Plaatst de bovenhoek in het midden*/
@@ -164,10 +171,11 @@ p {
 }
 .ASCIItabel {
     position: absolute;
-    right: 50px;
-    bottom: 20px;
-    width: 700px;
+    right: 25px;
+    bottom: 25px;
+    width: 650px;
 }
+
 footer {
     position: fixed;
     left: 0; /* Zet de footer helemaal links */
