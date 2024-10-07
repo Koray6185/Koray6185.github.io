@@ -135,15 +135,15 @@ p {
     position: absolute; 
     top: 48px; 
     right: 100px; 
-    margin: 20px; 
+    margin: 30px; 
     width: 220px; 
     height: auto; 
 }
 .afbeeldingbinair2 {
     position: absolute; 
-    bottom: 48px; 
+    bottom: 0px; 
     right: 100px; 
-    margin: 20px;
+    margin: 30px;
     width: 220px; 
     height: auto; 
 }
