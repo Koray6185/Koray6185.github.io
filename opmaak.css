@@ -1,22 +1,22 @@
-body {
+body { /* Stijling op elke pagina van mijn website*/
     background-color: powderblue; /* Zorgt voor de achtergrondskleur powderblue. */
     height: 100vh; /* Onderdelen zijn even hoog als het scherm. */
     position: relative; /* Zorgt ervoor dat ik onderdelen kan verplaatsen zonder dat andere onderdelen verschuiven. */
 }
 
-ul {
-    list-style-type: none; /* Zorgt ervoor dat alle opsommingstekens worden verwijderd. */
-    margin: 0; /* Zorgt ervoor dat er geen ruimte is de buitenkant. */
-    padding: 0; /* Zorgt ervoor dat er geen ruimte is aan de binnenkant. */
+ul { /* Stijling voor mijn unsorted list */
+    list-style-type: none; /* Zorgt ervoor dat alle opsommingstekens worden verwijderd */
+    margin: 0; /* Zorgt ervoor dat er geen ruimte is de buitenkant */
+    padding: 0; /* Zorgt ervoor dat er geen ruimte is aan de binnenkant */
     overflow: hidden; /* Zorgt ervoor dat onderdelen buiten de menu niet worden weergegeven */
-    background-color: steelblue; /* Achtergrondkleur is steelblue. */
+    background-color: steelblue; /* Achtergrondkleur is steelblue */
 }
 
-li {
+li { /* Stijling voor list items */
     float: left; /*Listitems staan horizontaal naast elkaar. */
 }
 
-li a {
+li a { /* Stijling voor de links */
     display: block; /* Gebruik volledige breedte van listitems waardoor de lettertype perfect is. */
     color: white; /* Tekstkleur is wit. */
     text-align: center; /* Plaatst de tekst in het midden. */
@@ -31,7 +31,7 @@ li a:hover { /* hover betekent de kleur van het menu als je met de muis over de 
     background-color: skyblue; /* Kleur bij hover is skyblue */
 }
 
-h1 {
+h1 { 
     text-align: center; /* Plaatst de h1 in het midden */
     color: steelblue; /* Kleur is steelblue */
 }
@@ -41,8 +41,8 @@ h2 {
     margin-left: 10px; /* Ruimte van 10 pixel groot aan linkerzijde */
     color: steelblue; /* Kleur is steelblue */
 }
-h2 a {
-    color: steelblue;
+h2 a { /* De link in lettertypte header 2*/
+    color: steelblue; /* De kleur van de link is steelblue*/
 }
 p {
     margin-top: 0; /* Verwijdert de ruimte boven de tekst */
@@ -51,7 +51,7 @@ p {
     max-width: 600px; /* De maximale breedte van de paragraaf is 600 pixels */
     text-align: justify; /* Zorgt ervoor dat de regels op hetzelfde moment eindigen, waardoor het er netjes uitziet */
 }
-.watiscompressie {
+.watiscompressie { /* Een punt voor class naam die ik in html heb bedacht, hierdoor kan ik het stijlen in css */
     max-width: 1050px;
     margin-top: 0; 
     margin-left: 10px;
