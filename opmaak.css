@@ -134,17 +134,17 @@ p {
 .afbeeldingbinair1 {
     position: absolute; 
     top: 48px; 
-    right: 0px; 
-    margin: 50px; 
-    width: 210px; 
+    right: 100px; 
+    margin: 20px; 
+    width: 220px; 
     height: auto; 
 }
 .afbeeldingbinair2 {
     position: absolute; 
     bottom: 48px; 
-    right: 0; 
-    margin: 50px;
-    width: 210px; 
+    right: 100; 
+    margin: 20px;
+    width: 220px; 
     height: auto; 
 }
 .afbeeldingsamplen {
